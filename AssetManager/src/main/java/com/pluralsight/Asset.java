@@ -39,7 +39,7 @@ public class Asset {
         this.originalCost = originalCost;
     }
 
-    // getter
+    // Returns the current value of the asset.
     public double getValue() {
         return originalCost;
     }
